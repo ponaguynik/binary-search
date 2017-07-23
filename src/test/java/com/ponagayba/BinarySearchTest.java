@@ -15,7 +15,7 @@ public class BinarySearchTest {
     }
 
     @Test
-    public void shouldReturnSix() throws Exception {
+    public void shouldReturnFour() throws Exception {
         assertEquals(4, BinarySearch.search(brokenArray, 15));
     }
 }
